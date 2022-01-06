@@ -1,0 +1,319 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    background-color: aliceblue;
+
+}
+.home{
+padding-left: 8%;
+padding-top: 13%;   
+
+}
+.homepic{
+    padding-top: 5%;
+   padding-right: 5%;
+    width: 800px;
+    height: 890px;
+    float: right;
+ 
+
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+color: crimson;  
+ font-weight: 500;
+}
+.home .home-content .hire{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content .hire:hover{
+    color:crimson;
+    background: none;
+}
+
+
+/*about*/
+#aboutme{
+    padding-top: 4%;
+}
+.about{
+    padding-top: 17%;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Acme', sans-serif;
+
+}
+.iam{
+    text-align: center;
+    font-size: 18px;
+}
+
+.aboutu{
+    padding-left: 25%;
+}
+.details{
+    font-size: 14px;
+}
+.img-circle{
+    border-radius: 50%;
+    width: 255px;
+    height: 300px;
+}
+
+  .intro{
+    font-size: 36px;
+      padding-top: 3%;
+      font-family: 'Acme', sans-serif;
+
+      color: rgba(0, 0, 0, 0.603);
+
+  }
+.mygalls{
+    padding-top: 3%;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Acme', sans-serif;
+  }
+  
+.aboutmusic{
+    padding-top: 4%;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Acme', sans-serif;
+
+}
+.videomins{
+    padding: 40px;
+}
+
+/* contactus */
+ 
+.contactusha{
+    padding-bottom: 15%;
+}
+.connectme{
+    padding-top: 3%;
+    font-size: 36px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Acme', sans-serif;
+
+}
+
+.sk7{
+    float: right;
+    width: 900px;
+    height: 800px;
+    padding-right: 32%;
+}
+.social-links{ 
+    display:grid;
+    padding-left: 35%;
+    padding-top: 1%;
+}
+.social-links .af{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+   
+    color: rgba(138, 112, 74, 0.932);
+    box-shadow: 0 0 20px 10px rgba(116, 111, 111, 0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition:transform 0.5s;
+}
+.social-links .af .fab{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+.social-links .af::after{
+    content:  '';
+    width: 100%;
+    height: 100%;
+    top: -90px;;
+    left: 0;
+    background: linear-gradient(-45deg, #ed1c94, #ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+.social-links .af:hover::after{
+    top:0;
+}
+.social-links .af:hover .fab{
+    color: rgb(150, 145, 145);
+}
+.social-links .af:hover{
+    transform:translate(-10px);
+}
+.contactus{
+    text-align: center;
+    padding-top: 1%;
+}
+.fillform{
+    text-align: center;
+}
+textarea, input{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+     border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+    .homepic{
+        padding-top:20%;
+        float: right;
+        width: 500px;
+        height: 600px;
+        padding-left:10% ;
+        padding-bottom: 3%;
+    
+    }
+
+    .home .max-width{
+        margin: auto 0 auto 0;
+    }
+
+    .home .home-content .text-1{
+        font-size: 22px;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 50px;
+        font-weight: 600;
+    
+    }
+    
+    .home .home-content .text-3{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    #aboutme{
+        padding-top: 2%;
+    }
+
+.about{
+    padding-top: 12%;
+    font-size: 26px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+    font-family: 'Acme', sans-serif;
+
+}
+.iam{
+    text-align: center;
+    font-size: 15px;
+}
+
+.aboutu{
+    padding-left: 10%;
+}
+.details{
+    font-size: 14px;
+}
+.img-circle{
+    border-radius: 50%;
+    width: 255px;
+    height: 300px;
+}
+
+  .intro{
+    font-size: 36px;
+      padding-top: 3%;
+      font-family: 'Acme', sans-serif;
+
+      color: rgba(0, 0, 0, 0.603);
+
+  }
+  .little{
+      font-size: 20px;
+  }
+ 
+
+  .intro{
+    font-size: 26px;
+  }
+  .videomin{
+      width: auto;
+      height: auto;
+  }
+  .mygalls{
+    font-size: 26px;
+   }
+     
+.aboutmusic{
+    font-size: 26px;
+}
+.videomins{
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connectme{
+    font-size: 26px;
+}
+
+.sk7{
+padding-left: 78%;
+    width: 580px;
+    height: 400px;
+}
+
+.social-links{ 
+
+    padding-top: 1%;
+text-align: left;}
+
+
+}
